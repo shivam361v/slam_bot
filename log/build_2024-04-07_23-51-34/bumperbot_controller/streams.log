@@ -1,0 +1,108 @@
+[0.024s] Invoking command in '/home/shivam/slam_bot/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/slam_bot/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/shivam/slam_bot/install/bumperbot_controller
+[0.191s] -- The C compiler identification is GNU 11.4.0
+[0.478s] -- The CXX compiler identification is GNU 11.4.0
+[0.697s] -- Detecting C compiler ABI info
+[0.813s] -- Detecting C compiler ABI info - done
+[0.820s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.820s] -- Detecting C compile features
+[0.821s] -- Detecting C compile features - done
+[0.829s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[0.981s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.981s] -- Detecting CXX compile features
+[0.981s] -- Detecting CXX compile features - done
+[1.036s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.194s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.288s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.435s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.441s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.451s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.548s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.551s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.409s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.993s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.001s] -- Looking for pthread.h
+[6.114s] -- Looking for pthread.h - found
+[6.114s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.221s] -- Found Threads: TRUE  
+[6.333s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[6.335s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.372s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.431s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.495s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.978s] -- Configuring done
+[6.991s] -- Generating done
+[6.993s] -- Build files have been written to: /home/shivam/slam_bot/build/bumperbot_controller
+[7.004s] Invoked command in '/home/shivam/slam_bot/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/slam_bot/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/shivam/slam_bot/install/bumperbot_controller
+[7.007s] Invoking command in '/home/shivam/slam_bot/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/slam_bot/build/bumperbot_controller -- -j12 -l12
+[7.048s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[7.053s] [ 25%] Built target ament_cmake_python_copy_bumperbot_controller
+[7.058s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[7.393s] running egg_info
+[7.393s] creating bumperbot_controller.egg-info
+[7.394s] writing bumperbot_controller.egg-info/PKG-INFO
+[7.394s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[7.394s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[7.395s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[7.396s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[7.397s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[7.435s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[17.100s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[17.858s] [ 75%] Built target noisy_controller
+[20.942s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[21.505s] [100%] Built target simple_controller
+[21.512s] Invoked command in '/home/shivam/slam_bot/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/slam_bot/build/bumperbot_controller -- -j12 -l12
+[21.529s] Invoking command in '/home/shivam/slam_bot/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/slam_bot/build/bumperbot_controller
+[21.532s] -- Install configuration: ""
+[21.533s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[21.533s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[21.533s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[21.533s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[21.534s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[21.534s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[21.534s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[21.534s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[21.534s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[21.534s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[21.534s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[21.556s] Listing '/home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[21.556s] Compiling '/home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[21.556s] Compiling '/home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py'...
+[21.556s] Compiling '/home/shivam/slam_bot/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[21.560s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/include/include
+[21.560s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/include/include/bumperbot_controller
+[21.560s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[21.561s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[21.561s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[21.565s] -- Set runtime path of "/home/shivam/slam_bot/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[21.565s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[21.567s] -- Set runtime path of "/home/shivam/slam_bot/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[21.567s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/launch
+[21.567s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[21.568s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[21.568s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/config
+[21.568s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[21.568s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[21.568s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[21.569s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[21.569s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[21.569s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[21.569s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[21.569s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[21.570s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[21.570s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[21.570s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[21.570s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[21.570s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[21.571s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[21.571s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[21.571s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[21.571s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[21.571s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[21.571s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[21.571s] -- Installing: /home/shivam/slam_bot/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[21.573s] Invoked command in '/home/shivam/slam_bot/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/slam_bot/build/bumperbot_controller

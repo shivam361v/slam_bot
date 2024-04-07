@@ -1,0 +1,114 @@
+[0.032s] Invoking command in '/home/shivam/slam_bot/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/slam_bot/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/shivam/slam_bot/install/bumperbot_firmware
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.489s] -- The CXX compiler identification is GNU 11.4.0
+[0.773s] -- Detecting C compiler ABI info
+[0.940s] -- Detecting C compiler ABI info - done
+[0.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.947s] -- Detecting C compile features
+[0.948s] -- Detecting C compile features - done
+[0.950s] -- Detecting CXX compiler ABI info
+[1.115s] -- Detecting CXX compiler ABI info - done
+[1.123s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.123s] -- Detecting CXX compile features
+[1.126s] -- Detecting CXX compile features - done
+[1.126s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.243s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.304s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.427s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.433s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.443s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.539s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.542s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.136s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.764s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.590s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.601s] -- Looking for pthread.h
+[4.693s] -- Looking for pthread.h - found
+[4.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.785s] -- Found Threads: TRUE  
+[4.940s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[4.942s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[6.726s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.727s] -- Checking for module 'libserial'
+[6.738s] --   Found libserial, version 1.0.0
+[6.966s] -- Configuring done
+[7.032s] -- Generating done
+[7.034s] -- Build files have been written to: /home/shivam/slam_bot/build/bumperbot_firmware
+[7.053s] Invoked command in '/home/shivam/slam_bot/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/slam_bot/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/shivam/slam_bot/install/bumperbot_firmware
+[7.055s] Invoking command in '/home/shivam/slam_bot/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/slam_bot/build/bumperbot_firmware -- -j12 -l12
+[7.094s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[7.094s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[7.096s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[7.100s] [ 50%] Built target ament_cmake_python_copy_bumperbot_firmware
+[7.386s] running egg_info
+[7.387s] creating bumperbot_firmware.egg-info
+[7.387s] writing bumperbot_firmware.egg-info/PKG-INFO
+[7.388s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[7.388s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[7.389s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[7.391s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[7.392s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[7.433s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[10.993s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[11.279s] [ 66%] Built target bumperbot_firmware
+[11.764s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[11.999s] [ 83%] Built target simple_serial_receiver
+[16.227s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[16.859s] [100%] Built target simple_serial_transmitter
+[16.876s] Invoked command in '/home/shivam/slam_bot/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/slam_bot/build/bumperbot_firmware -- -j12 -l12
+[16.907s] Invoking command in '/home/shivam/slam_bot/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/slam_bot/build/bumperbot_firmware
+[16.917s] -- Install configuration: ""
+[16.917s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[16.917s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[16.917s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[16.917s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.917s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.917s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[16.918s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[16.918s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[16.918s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[16.918s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[16.918s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[16.954s] Listing '/home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[16.955s] Compiling '/home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py'...
+[16.955s] Compiling '/home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py'...
+[16.955s] Compiling '/home/shivam/slam_bot/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+[16.961s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[16.961s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[16.962s] -- Set runtime path of "/home/shivam/slam_bot/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+[16.962s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/include/include
+[16.962s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/include/include/bumperbot_firmware
+[16.962s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[16.962s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[16.962s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[16.963s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[16.963s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[16.963s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[16.964s] -- Set runtime path of "/home/shivam/slam_bot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver" to ""
+[16.964s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[16.967s] -- Set runtime path of "/home/shivam/slam_bot/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[16.967s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[16.967s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[16.968s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[16.969s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[16.969s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[16.969s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[16.970s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[16.970s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.970s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[16.970s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.970s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[16.971s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[16.971s] -- Installing: /home/shivam/slam_bot/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[16.979s] Invoked command in '/home/shivam/slam_bot/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/slam_bot/build/bumperbot_firmware

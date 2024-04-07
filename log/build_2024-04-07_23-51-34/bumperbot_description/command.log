@@ -1,0 +1,6 @@
+Invoking command in '/home/shivam/slam_bot/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/slam_bot/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/shivam/slam_bot/install/bumperbot_description
+Invoked command in '/home/shivam/slam_bot/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shivam/slam_bot/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/shivam/slam_bot/install/bumperbot_description
+Invoking command in '/home/shivam/slam_bot/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/slam_bot/build/bumperbot_description -- -j12 -l12
+Invoked command in '/home/shivam/slam_bot/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/slam_bot/build/bumperbot_description -- -j12 -l12
+Invoking command in '/home/shivam/slam_bot/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/slam_bot/build/bumperbot_description
+Invoked command in '/home/shivam/slam_bot/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shivam/slam_bot/build/bumperbot_description
