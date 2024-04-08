@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
+<?xml version="1.0"?>                                           # 3D URDF model of RVIZ
 
-<robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro"> 
 
   <!-- Move this one to ros2 control -->
   <transmission name="wheel_right_transmission">
