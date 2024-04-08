@@ -11,7 +11,7 @@ from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 
 
-def generate_launch_description():
+def generate_launch_description():                                                                  # 3D model will be published in rviz
     bumperbot_description = get_package_share_directory("bumperbot_description")
     bumperbot_description_prefix = get_package_prefix("bumperbot_description")
     gazebo_ros_dir = get_package_share_directory("gazebo_ros")

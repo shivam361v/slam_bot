@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+  <!-- Define model as well as joints with  its parent  of the robot -->
 
 <robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
 

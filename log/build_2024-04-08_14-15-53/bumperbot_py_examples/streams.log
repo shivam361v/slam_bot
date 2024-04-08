@@ -1,0 +1,27 @@
+[1.539s] Invoking command in '/home/shivam/slam_bot/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/shivam/slam_bot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/slam_bot/install/bumperbot_msgs LD_LIBRARY_PATH=/home/shivam/slam_bot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/slam_bot/build/bumperbot_py_examples/prefix_override:/home/shivam/slam_bot/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/shivam/slam_bot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/shivam/slam_bot/build/bumperbot_py_examples/build install --record /home/shivam/slam_bot/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.933s] running egg_info
+[1.934s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[1.934s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[1.935s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[1.936s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[1.936s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[1.938s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.941s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.941s] running build
+[1.941s] running build_py
+[1.941s] running install
+[1.942s] running install_lib
+[1.944s] running install_data
+[1.944s] running install_egg_info
+[1.947s] removing '/home/shivam/slam_bot/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[1.948s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/shivam/slam_bot/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[1.950s] running install_scripts
+[1.989s] Installing simple_parameter script to /home/shivam/slam_bot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.990s] Installing simple_publisher script to /home/shivam/slam_bot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.993s] Installing simple_service_client script to /home/shivam/slam_bot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.993s] Installing simple_service_server script to /home/shivam/slam_bot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.993s] Installing simple_subscriber script to /home/shivam/slam_bot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.993s] Installing simple_tf_kinematics script to /home/shivam/slam_bot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.993s] Installing simple_turtlesim_kinematics script to /home/shivam/slam_bot/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.993s] writing list of installed files to '/home/shivam/slam_bot/build/bumperbot_py_examples/install.log'
+[2.027s] Invoked command in '/home/shivam/slam_bot/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/shivam/slam_bot/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/slam_bot/install/bumperbot_msgs LD_LIBRARY_PATH=/home/shivam/slam_bot/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/slam_bot/build/bumperbot_py_examples/prefix_override:/home/shivam/slam_bot/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/shivam/slam_bot/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/shivam/slam_bot/build/bumperbot_py_examples/build install --record /home/shivam/slam_bot/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

@@ -4,6 +4,8 @@ import time
 from rclpy.node import Node
 from sensor_msgs.msg import Imu
 
+# IMU data collection
+
 imu_pub = None
 
 def imuCallback(imu):

@@ -11,6 +11,7 @@ from geometry_msgs.msg import TransformStamped
 import math
 from tf_transformations import quaternion_from_euler
 
+# Handle noise in the coming through the sensoers and wheel
 
 class NoisyController(Node):
 

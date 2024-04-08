@@ -13,6 +13,7 @@ from geometry_msgs.msg import TransformStamped
 import math
 from tf_transformations import quaternion_from_euler
 
+# Control some genral motion of the robot
 
 class SimpleController(Node):
 

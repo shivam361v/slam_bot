@@ -3,6 +3,7 @@ from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from ament_index_python.packages import get_package_share_directory
 
+# Define necessary launch packages for ardino nano
 
 def generate_launch_description():
     hardware_interface = IncludeLaunchDescription(

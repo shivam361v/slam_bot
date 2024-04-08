@@ -4,6 +4,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
+# Serial client of the robot
 
 class SimpleSerialReceiver(Node):
     def __init__(self):

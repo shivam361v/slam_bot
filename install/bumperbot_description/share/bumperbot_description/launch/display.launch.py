@@ -1,4 +1,4 @@
-import os
+import os                                                                   # Necessary Package import
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
@@ -8,8 +8,13 @@ from launch.substitutions import Command, LaunchConfiguration
 from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 
+# """
+# dggd
+# """
 
-def generate_launch_description():
+
+
+def generate_launch_description():                                                                      # 3D model will be published in rviz
     bumperbot_description_dir = get_package_share_directory("bumperbot_description")
 
     model_arg = DeclareLaunchArgument(name="model", default_value=os.path.join(
